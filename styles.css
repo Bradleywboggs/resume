@@ -1,0 +1,118 @@
+body {
+   box-sizing: border-box;
+   margin: auto;
+   width: 800px;
+   background-image: url("./resumebackground.jpg");
+   justify-self: center;
+   
+
+}
+ 
+header {
+    background-color:hsla(195, 10%, 24%, 50%);
+    text-align: center;
+    border: 2px black dotted;
+    width: 100%;
+}
+
+}
+span {
+    color: white;
+}
+p {
+    color: white;
+    font-family: "Oswald";
+}
+.contactinfo {
+    color:white;
+}
+.container {
+    display: inline-block;
+   
+}
+.mainheading {
+    justify-items: center;
+    color: white;
+    font-family: "Zilla Slab";
+}
+.contactinfo li {
+    padding: 0px 30px;
+    display: inline-block;
+    border: 1 px solid black;
+    font-family: "Oswald";
+}
+
+.heading {
+    color: white;
+    margin: 5px;
+    font-family: "Zilla Slab";
+
+
+}
+    
+
+}
+main {
+    position: relative;
+    
+
+}
+
+.summary {
+    border: 2px dotted black;
+    padding: 0px 10px;
+    margin: 5px;
+    background-color:hsla(195, 10%, 24%, 50%);
+    display:inline-block;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.education {
+    border: 2px dotted black;
+    padding: 0px 10px;
+    margin: 5px;
+    background-color:  hsla(195, 10%, 24%, 50%);
+    display:inline-block;
+    width: 100%;
+    position: relative;
+
+
+}
+
+.teaching {
+   
+   border: 2px dotted black;
+   padding: 0px 10px;
+   margin-top; -20px;
+   background-color:hsla(195, 10%, 24%, 50%);
+   display:inline-block;
+   width: 45%;
+   position: relative;
+
+
+}
+.retail {
+    border: 2px dotted black;
+    padding: 0px 10px;
+    margin: 5px;
+    background-color:hsla(195, 10%, 24%, 50%);
+    display:inline-block;
+    width: 45%;
+    position: relative;
+
+
+   }
+.personal {
+    border: 2px dotted black;
+    padding: 0px 10px;
+    margin: 5px;
+    background-color:hsla(195, 10%, 24%, 50%);
+    display:inline-block;
+    position: relative;
+    width: 100%;
+
+}
+
