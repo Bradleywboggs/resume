@@ -4,39 +4,26 @@ body {
    width: 800px;
    background-image: url("./resumebackground.jpg");
    justify-self: center;
-   
-
 }
- 
+
 header {
     background-color:hsla(195, 10%, 24%, 50%);
     text-align: center;
     border: 2px black dotted;
-    width: 100%;
+    width: 800px;
+    margin: 0;
 }
 
-}
-span {
-    color: white;
-}
-p {
-    color: white;
-    font-family: "Oswald";
-}
-.contactinfo {
-    color:white;
-}
-.container {
-    display: inline-block;
-   
-}
 .mainheading {
     justify-items: center;
     color: white;
     font-family: "Zilla Slab";
+    margin: auto;
+    width: 800px;
+    
 }
 .contactinfo li {
-    padding: 0px 30px;
+    padding: 0px 20px;
     display: inline-block;
     border: 1 px solid black;
     font-family: "Oswald";
@@ -46,73 +33,51 @@ p {
     color: white;
     margin: 5px;
     font-family: "Zilla Slab";
-
-
-}
-    
-
-}
-main {
-    position: relative;
-    
-
 }
 
-.summary {
+span {
+    color: white;
+}
+
+p {
+    color: white;
+    font-family: "Oswald";
+}
+
+.contactinfo {
+    color:white;
+}
+
+
+.horizdiv {
     border: 2px dotted black;
     padding: 0px 10px;
     margin: 5px;
     background-color:hsla(195, 10%, 24%, 50%);
     display:inline-block;
-    width: 100%;
+    width: 800px;
     position: relative;
-
-
+    color: green;
 }
 
-.education {
+.workexperience {
+    justify-content: space-evenly;
+}
+.vertdiv {
+    display: flex;
     border: 2px dotted black;
+    margin: 15px;
     padding: 0px 10px;
-    margin: 5px;
     background-color:  hsla(195, 10%, 24%, 50%);
     display:inline-block;
-    width: 100%;
+    width: 350px;
+    height: 800px;
     position: relative;
-
-
+    vertical-align: top;
+    justify-content: space-between;  
 }
 
-.teaching {
-   
-   border: 2px dotted black;
-   padding: 0px 10px;
-   margin-top; -20px;
-   background-color:hsla(195, 10%, 24%, 50%);
-   display:inline-block;
-   width: 45%;
-   position: relative;
 
-
-}
-.retail {
-    border: 2px dotted black;
-    padding: 0px 10px;
-    margin: 5px;
-    background-color:hsla(195, 10%, 24%, 50%);
-    display:inline-block;
-    width: 45%;
-    position: relative;
-
-
-   }
-.personal {
-    border: 2px dotted black;
-    padding: 0px 10px;
-    margin: 5px;
-    background-color:hsla(195, 10%, 24%, 50%);
-    display:inline-block;
-    position: relative;
-    width: 100%;
 
 }
 
