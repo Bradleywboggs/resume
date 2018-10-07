@@ -1,42 +1,35 @@
 body {
    box-sizing: border-box;
    margin: auto;
-   width: 800px;
-   background-image: url("./resumebackground.jpg");
-   justify-self: center;
-   
-
+   width: 1200px;
+   text-align: center;
+   background-image: url("./images/resumebackground.jpg");
+  
 }
- 
+
 header {
     background-color:hsla(195, 10%, 24%, 50%);
     text-align: center;
     border: 2px black dotted;
-    width: 100%;
+    width: 800px;
+    margin: 0 auto;
 }
 
+.photo {
+    padding-top: 20px;
+    float: left;
 }
-span {
-    color: white;
-}
-p {
-    color: white;
-    font-family: "Oswald";
-}
-.contactinfo {
-    color:white;
-}
-.container {
-    display: inline-block;
-   
-}
+
 .mainheading {
     justify-items: center;
     color: white;
     font-family: "Zilla Slab";
+    margin: auto;
+    width: 800px;
+    
 }
-.contactinfo li {
-    padding: 0px 30px;
+.inline-list li {
+    padding: 0px 20px;
     display: inline-block;
     border: 1 px solid black;
     font-family: "Oswald";
@@ -46,73 +39,72 @@ p {
     color: white;
     margin: 5px;
     font-family: "Zilla Slab";
-
-
-}
-    
-
-}
-main {
-    position: relative;
-    
-
+    letter-spacing: 2px;
 }
 
-.summary {
+strong {
+    color: white;
+    letter-spacing: 1px;
+}
+
+p {
+    color: white;
+    font-family: "Oswald";
+    letter-spacing: 0.6px;
+}
+
+.inline-list{
+    color:white;
+}
+
+
+.horizdiv {
     border: 2px dotted black;
     padding: 0px 10px;
     margin: 5px;
     background-color:hsla(195, 10%, 24%, 50%);
     display:inline-block;
-    width: 100%;
+    width: 800px;
     position: relative;
-
-
+}
+.workexperience {
+    width: 100%;
+    height: 800px;
+    justify-self: right;
+    text-align: center;
 }
 
-.education {
+.teach {
     border: 2px dotted black;
+    margin: 15px;
     padding: 0px 10px;
-    margin: 5px;
     background-color:  hsla(195, 10%, 24%, 50%);
     display:inline-block;
-    width: 100%;
+    width: 340px;
+    height: 800px;
     position: relative;
-
-
-}
-
-.teaching {
-   
-   border: 2px dotted black;
-   padding: 0px 10px;
-   margin-top; -20px;
-   background-color:hsla(195, 10%, 24%, 50%);
-   display:inline-block;
-   width: 45%;
-   position: relative;
-
+    vertical-align: top;
+    justify-items: left;
 
 }
 .retail {
     border: 2px dotted black;
+    margin: 15px;
     padding: 0px 10px;
-    margin: 5px;
-    background-color:hsla(195, 10%, 24%, 50%);
+    background-color:  hsla(195, 10%, 24%, 50%);
     display:inline-block;
-    width: 45%;
+    width: 340px;
+    height: 800px;
     position: relative;
-
-
-   }
-.personal {
-    border: 2px dotted black;
-    padding: 0px 10px;
-    margin: 5px;
-    background-color:hsla(195, 10%, 24%, 50%);
-    display:inline-block;
-    position: relative;
-    width: 100%;
-
+    vertical-align: top;
+    margin-right: 0px;
+    justify-items: right;
 }
+.button {
+    font-family: "Oswald";
+    width: 100px;
+    height: 60px;
+    margin-top: 30px;
+}
+
 
