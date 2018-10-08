@@ -3,8 +3,7 @@ body {
    margin: auto;
    width: 1200px;
    text-align: center;
-   background-image: url("./images/resumebackground.jpg");
-  
+   background-image: url("./images/resumebackground.jpg"); 
 }
 
 header {
